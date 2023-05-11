@@ -1,0 +1,55 @@
+//
+//  ArrayData.swift
+//  DrawCard
+//
+//  Created by Derek Fitzer on 3/2/23.
+//
+
+import Foundation
+
+var ac = [["Auto Collision","What type of certification can a student earn?","I-CAR"],
+          ["Auto Collision","What is the most common position in employment you start off as?","Detailer."],
+          ["Auto Collision","What main factor affects pay?","Experience."],
+          ["Auto Collision","How much do detailers make?","$12-15 an hour."],
+          ["Auto Collision","What are the two types of customers bodyshops have?","Individuals and insurance companies."],
+          ["Auto Collision","How do you become a painter?","With experience and training."],
+          ["Auto Collision","What is the difference between auto body and automotive?","Auto Body is working outside the vehicle, while automotive is working inside the engine."],
+          ["Auto Collision","What is flat-rate pay?","Pay based on the task."],
+          ["Auto Collision","What type of training do you need to become a painter?","On the job training in the paint booth."],
+          ["Auto Collision","True or False - Do painters get paid more than detailers?","True."],
+          ["Auto Collision","Do most body shops work with insurance companies to pay out claims from accidents?","Yes."],
+          ["Auto Collision","How long does it take to have a vehicle repaired after an accident?","Usually, a few days to a few weeks depending on the damage."],
+          ["Auto Collision","What is used to fill in dents in vehicles?","Body filler."],
+          ["Auto Collision","What type of material is used to smooth out body filler?","Sand paper."],
+          ["Auto Collision","How many jack stands are used to hold up a vehicle?","4"],["Auto Collision","True or False - The engine side is lifted first when putting a vehicle on jack stands","True."],
+          ["Auto Collision","True or False - Safety glasses are required when using a grinder.","True."],
+          ["Auto Collision","True or False - When washing a car, a detailer starts from the bottom and moves up.","False."],
+          ["Auto Collision","True or False - A college degree is required to be an auto collision technician.","False."],
+          ["Auto Collision","How many bumpers does a car have?","2"],["Auto Collision","True or False - Clearcoat is the final coat when a technician is painting a vehicle.","True."],
+          ["Auto Collision","True or False - When a technician is sanding, they should wear a mask.","True."],
+          ["Auto Collision","True or False - Masking is covering parts of a vehicle the technician doesn't want to be painted.","True."],
+          ["Auto Collision","True or False - Plastic welding doesn't use heat.","False."],
+          ["Auto Collision","How many layers of base coat go on a car when it is being repainted?","2 to 4 coats."],
+          ["Auto Collision","True or False - When a technician is spraying clear coat, they should not wear a paintsuit.","False."],
+          ["Auto Collision","Ture or False - You don't need gloves when mixing chemicals.","False."],
+          ["Auto Collision","True or false - You must wear a welding helmet when welding.","True,"],
+          ["Auto Collision","When a technician is trying to loosen a bolt, they should turn it which direction?","Left (Righty tighty; lefty loosey)"],
+          ["Auto Collision","Before a technician leaves their work space for the day, what should they do?","Clean up their work area."],
+          ["Auto Collision","What type of gloves are a good way to keep your hands clean?","Blue latex gloves."],
+          ["Auto Collision","What should a technician wear at all times in the shop?","Safety glasses."],
+          ["Auto Collision","How many doors does a coupe have?","2"],["Auto Collision","What size socket is the most commonly used for most bolts?","10 mm"],
+          ["Auto Collision","When repairing a vehicle, what should a technician look for?","Other damage."],
+          ["Auto Collision","How many doors does a sedan have?","4"],["Auto Collision","What are car doors mostly made of?","Steel."],
+          ["Auto Collision","What should a technician wear when they are cleaning a paint gun?","Gloves."],
+          ["Auto Collision","What type of boots should an auto body tech wear?","Steel-toed boots."],
+          ["Auto Collision","You mixed the wrong ratio of paint, and the color turned out purple. Go back 2 spaces.",""],
+          ["Auto Collision","You dropped an entire container of paint all over the floor and blamed it on a co-worker. Go back 3 spaces.",""],
+          ["Auto Collision","While trying to remove the driver’s door window, you broke the glass. Go back 1 space.",""],
+          ["Auto Collision","You forgot to tighten the bolts on the customer’s seat; it caused the customer to have an accident. Go back 3 spaces.",""],
+          ["Auto Collision","You didn’t allow the paint to dry completely and set before returning the vehicle to the customer. Go back 2 spaces.",""],
+          ["Auto Collision","You didn’t correctly match the paint on the repair you completed for a customer. Go back 1 space.",""],
+          ["Auto Collision","While attempting to pull a dent, you use excessive heat. The metal expands and weakens the area. Go back 1 space.",""],
+          ["Auto Collision","You forget to turn on the ventilation in the paint booth and cause a dense fog advisory in the booth. Go back 3 spaces.",""],
+          ["Auto Collision","You forget to put on your safety glasses, and you have to get a ride to the hospital to clean out your eyes. Go back 3 spaces.",""],
+          ["Auto Collision","You didn’t do a good job detailing a customer's car. Go back 2 spaces.",""],
+          ["Auto Collision","",""]]

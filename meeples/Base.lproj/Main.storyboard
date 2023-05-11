@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="meeples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MulitSkilledHealthShamsaMohamed" translatesAutoresizingMaskIntoConstraints="NO" id="giu-OL-rmF">
+                                <rect key="frame" x="-369" y="-62" width="2084" height="1107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0tm-t3-Jyv">
+                                <rect key="frame" x="-359" y="-52" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zT-mC-hXA">
+                                <rect key="frame" x="181" y="24" width="240" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rU8-wh-ABs">
+                                        <rect key="frame" x="83" y="115" width="75" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="changedTappedOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f2m-Pi-I2g"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meeple1" translatesAutoresizingMaskIntoConstraints="NO" id="Jut-5A-vrD">
+                                        <rect key="frame" x="83" y="46" width="73" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ja8-1Y-ZhQ">
+                                        <rect key="frame" x="71" y="8" width="97" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="GIN-y9-lbw" appends="YES" id="hqt-UC-cap"/>
+                                    <outletCollection property="gestureRecognizers" destination="CRj-Xe-lFn" appends="YES" id="B9P-EK-JIT"/>
+                                    <outletCollection property="gestureRecognizers" destination="2PD-Nf-2DF" appends="YES" id="kdg-Lw-zS2"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qcq-u8-aeZ">
+                                <rect key="frame" x="429" y="24" width="240" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meeple2" translatesAutoresizingMaskIntoConstraints="NO" id="hWn-cy-1lR">
+                                        <rect key="frame" x="86" y="40" width="73" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MRz-Wq-20D">
+                                        <rect key="frame" x="72" y="8" width="97" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xl9-MQ-e3c">
+                                        <rect key="frame" x="84" y="115" width="75" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="changedTappedTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zZH-Dj-n5W"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="0Eu-Dh-Ani" appends="YES" id="zp2-FJ-7RN"/>
+                                    <outletCollection property="gestureRecognizers" destination="33r-Oa-YJN" appends="YES" id="z53-Ix-jRg"/>
+                                    <outletCollection property="gestureRecognizers" destination="lik-9I-dFV" appends="YES" id="TMg-LN-vhy"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z9D-55-iRh">
+                                <rect key="frame" x="677" y="24" width="240" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meeple3" translatesAutoresizingMaskIntoConstraints="NO" id="ONR-nM-eK4">
+                                        <rect key="frame" x="84" y="46" width="73" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pQc-Tm-pB2">
+                                        <rect key="frame" x="72" y="8" width="97" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFO-7y-Frd">
+                                        <rect key="frame" x="84" y="115" width="75" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="changedTappedThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAg-sy-57O"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sIq-C3-aQt" appends="YES" id="Zzo-AK-pSl"/>
+                                    <outletCollection property="gestureRecognizers" destination="cI9-9W-Z2E" appends="YES" id="rrU-9d-7j3"/>
+                                    <outletCollection property="gestureRecognizers" destination="9OV-GP-Tob" appends="YES" id="mag-SJ-6pV"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uh5-Sk-Vmm">
+                                <rect key="frame" x="925" y="24" width="240" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="meeple4" translatesAutoresizingMaskIntoConstraints="NO" id="RMv-9r-k2J">
+                                        <rect key="frame" x="84" y="46" width="73" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WQZ-oC-z0y">
+                                        <rect key="frame" x="72" y="8" width="97" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TR-qJ-cQx">
+                                        <rect key="frame" x="84" y="115" width="75" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="changedTappedFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GYP-B0-L4x"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="6Af-aW-uJZ" appends="YES" id="KWL-nD-VI2"/>
+                                    <outletCollection property="gestureRecognizers" destination="eNC-oN-89O" appends="YES" id="g5q-IR-S6Y"/>
+                                    <outletCollection property="gestureRecognizers" destination="WG8-ue-Sap" appends="YES" id="aWp-45-c0X"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="La5-Gb-vgq">
+                                <rect key="frame" x="973" y="576" width="163" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FF7-v0-kYH">
+                                        <rect key="frame" x="54" y="8" width="0.0" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="question" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dyf-aN-8h8">
+                                        <rect key="frame" x="14" y="0.0" width="135" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="answer" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hpM-pu-RR2">
+                                        <rect key="frame" x="14" y="131" width="135" height="63"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhg-DQ-vXS">
+                                        <rect key="frame" x="20" y="202" width="123" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="show answer"/>
+                                        <connections>
+                                            <action selector="buttonTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nBk-YE-ATf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3tW-P0-A6y" appends="YES" id="7Hg-iM-xRV"/>
+                                </connections>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cardBack" translatesAutoresizingMaskIntoConstraints="NO" id="BmQ-y7-AHG">
+                                <rect key="frame" x="925" y="326" width="281" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xH8-aD-ww9" appends="YES" id="ZJR-7s-nib"/>
+                                </connections>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-vH-Ub5">
+                                <rect key="frame" x="277" y="923" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switch:" destination="BYZ-38-t0r" eventType="valueChanged" id="eco-YN-WUi"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sound on and off" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fgq-dK-hME">
+                                <rect key="frame" x="236" y="962" width="129" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdA-Lf-1zc">
+                                <rect key="frame" x="83" y="923" width="91" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="about us"/>
+                                <connections>
+                                    <action selector="aboutUsAlerts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ESX-al-7oU"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TxI-7A-LUA">
+                                <rect key="frame" x="123" y="477" width="155" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQm-NS-Pcf">
+                                <rect key="frame" x="158" y="655" width="84" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="roll dice"/>
+                                <connections>
+                                    <action selector="diceRoll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="euH-c7-Q6T"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="top and hold text box area to change and edit meeple :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BVx-5K-NSA">
+                                <rect key="frame" x="497" y="178" width="420" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUS-IN-QhA">
+                                <rect key="frame" x="1002" y="409" width="105" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="draw card">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="gray" title="draw card">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YYA-Ke-YBN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="changeOutletFour" destination="0TR-qJ-cQx" id="RKa-MZ-HRy"/>
+                        <outlet property="changeOutletOne" destination="rU8-wh-ABs" id="ubm-sE-Rva"/>
+                        <outlet property="changeOutletThree" destination="mFO-7y-Frd" id="aYA-mU-Bvd"/>
+                        <outlet property="changeOutletTwo" destination="xl9-MQ-e3c" id="KYO-c1-UkX"/>
+                        <outlet property="diceRollImage" destination="TxI-7A-LUA" id="nmf-vx-ass"/>
+                        <outlet property="meepleViewFour" destination="Uh5-Sk-Vmm" id="lVa-56-z0J"/>
+                        <outlet property="meepleViewOne" destination="3zT-mC-hXA" id="h3D-Wi-Jnv"/>
+                        <outlet property="meepleViewThree" destination="z9D-55-iRh" id="T2v-Ii-t5Z"/>
+                        <outlet property="meepleViewTwo" destination="Qcq-u8-aeZ" id="9Vm-hf-oOo"/>
+                        <outlet property="playerIconFour" destination="RMv-9r-k2J" id="hwe-XA-kUF"/>
+                        <outlet property="playerIconOne" destination="Jut-5A-vrD" id="3us-WY-dPo"/>
+                        <outlet property="playerIconThree" destination="ONR-nM-eK4" id="h85-D7-cLk"/>
+                        <outlet property="playerIconTwo" destination="hWn-cy-1lR" id="Zyp-Dt-ykR"/>
+                        <outlet property="playerNameFour" destination="WQZ-oC-z0y" id="Aig-VF-E5w"/>
+                        <outlet property="playerNameOne" destination="Ja8-1Y-ZhQ" id="9ui-GR-IHo"/>
+                        <outlet property="playerNameThree" destination="pQc-Tm-pB2" id="lZe-Te-SRs"/>
+                        <outlet property="playerNameTwo" destination="MRz-Wq-20D" id="0Df-Dg-iTD"/>
+                        <outlet property="textViewOne" destination="dyf-aN-8h8" id="Doa-3J-QwS"/>
+                        <outlet property="textViewTwo" destination="hpM-pu-RR2" id="jxx-ZD-pdW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="GIN-y9-lbw">
+                    <connections>
+                        <action selector="panGest:" destination="BYZ-38-t0r" id="WAQ-Of-Vxs"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="CRj-Xe-lFn">
+                    <connections>
+                        <action selector="tapGest:" destination="BYZ-38-t0r" id="gSo-we-0gJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="2PD-Nf-2DF">
+                    <connections>
+                        <action selector="longPress:" destination="BYZ-38-t0r" id="x5b-y6-qDP"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="0Eu-Dh-Ani">
+                    <connections>
+                        <action selector="meeplePanGestTwo:" destination="BYZ-38-t0r" id="PAJ-yE-9Ma"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="33r-Oa-YJN">
+                    <connections>
+                        <action selector="meepleTapGestTwo:" destination="BYZ-38-t0r" id="REl-Rr-C6t"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="lik-9I-dFV">
+                    <connections>
+                        <action selector="longPressTwo:" destination="BYZ-38-t0r" id="m0d-II-W4l"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="sIq-C3-aQt">
+                    <connections>
+                        <action selector="meeplePanGestThree:" destination="BYZ-38-t0r" id="oIs-I2-qfm"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="cI9-9W-Z2E">
+                    <connections>
+                        <action selector="meepleTapGestThree:" destination="BYZ-38-t0r" id="fkK-bg-u5i"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="9OV-GP-Tob">
+                    <connections>
+                        <action selector="longPressThree:" destination="BYZ-38-t0r" id="Nqq-ld-mBz"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="6Af-aW-uJZ">
+                    <connections>
+                        <action selector="meeplePanGestFour:" destination="BYZ-38-t0r" id="vuX-GW-MPH"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="eNC-oN-89O">
+                    <connections>
+                        <action selector="meepleTapGestFour:" destination="BYZ-38-t0r" id="gqA-df-YOC"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="WG8-ue-Sap">
+                    <connections>
+                        <action selector="longPressFour:" destination="BYZ-38-t0r" id="g3k-3a-E68"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="3tW-P0-A6y">
+                    <connections>
+                        <action selector="cardDrag:" destination="BYZ-38-t0r" id="tHB-gx-2Ae"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="xH8-aD-ww9">
+                    <connections>
+                        <action selector="tapCard:" destination="BYZ-38-t0r" id="L2m-1h-UPZ"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.48169838945827" y="3.5156249999999996"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="kYL-RC-6yK">
+            <objects>
+                <viewController id="hBz-de-jKi" customClass="SecondViewController" customModule="meeples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7l5-JX-OsL">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mobile apps info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh0-DQ-kVR">
+                                <rect key="frame" x="320" y="480" width="126" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4v5-ki-HGC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rg5-aj-rSi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xSJ-h4-F3i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758.56515373352852" y="8.7890625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MulitSkilledHealthShamsaMohamed" width="7000" height="5500"/>
+        <image name="cardBack" width="1269" height="1562"/>
+        <image name="meeple1" width="599" height="852"/>
+        <image name="meeple2" width="599" height="852"/>
+        <image name="meeple3" width="599" height="852"/>
+        <image name="meeple4" width="129" height="170"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
